@@ -14,11 +14,11 @@
       $("#submit").on("click", function () {
         var usrname = $('#inputuser').val();
         if (!$("#inputuser").val()) {
-          alert("Ù„Ø·ÙØ§Ù‹ Ù†Ø§Ù… Ú©Ø§Ø±Ø¨Ø±ÛŒ Ø®ÙˆØ¯ Ø±Ø§ ÙˆØ§Ø±Ø¯ Ù†Ù…Ø§ÛŒÛŒØ¯.");
+          alert("لطفاً نام کاربری خود را وارد نمایید.");
         } else if (!$("#inputPassword").val()) {
-          alert("Ù„Ø·ÙØ§Ù‹ Ø±Ù…Ø²Ø¹Ø¨ÙˆØ± Ø®ÙˆØ¯ Ø±Ø§ ÙˆØ§Ø±Ø¯ Ù†Ù…Ø§ÛŒÛŒØ¯.");
+          alert("لطفاً رمزعبور خود را وارد نمایید.");
         } else {
-          alert("Ú©Ø§Ø±Ø¨Ø± "+ usrname +" Ú©Ø¯ ØªØ®ÙÛŒÙ Ø´Ù…Ø§: \n" + makeid(11));
+          alert("کاربر "+ usrname +" کد تخفیف شما: \n" + makeid(11));
           $("#submitnew").click();
         }
       });
